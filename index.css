@@ -50,7 +50,11 @@ table {
 /* CSS starts here */
 
 body{
-    font-family: 'Fascinate', cursive;
+    /* font-family: 'Fascinate', cursive;
     font-family: 'Walter Turncoat', cursive;
+    font-family: 'Mouse Memoirs', sans-serif; */
+}
+
+p{
     font-family: 'Montserrat', sans-serif;
 }
