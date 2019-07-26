@@ -7,18 +7,21 @@ nav {
 	flex-direction: row;
 	background-color: #800080;
 	width: 100%;
-	
+	justify-content: space-around;
+
 }
 a {
 	text-decoration: none;
 	color: white;
 	font-size: 2.6rem;
+	margin: 20px;
 }
 
-/*a:nth-child(0) {
+nav:hover {
 	align-self: flex-start;
-}*/
+	font-size: 10rem;
+}
 
 .logo {
-	font-size: 3rem;
+	font-size: 4rem;
 }
