@@ -1,5 +1,5 @@
 
-header {
+/*header {
 	width: 100vw;
 }
 nav {
@@ -24,4 +24,33 @@ nav:hover {
 
 .logo {
 	font-size: 4rem;
+}*/
+
+body {
+	margin: 0%;
+	background: rgb(243, 236, 236);
+	font-weight: 300;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+	background: #800080;
+}
+
+header::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.logo {
+	float: left;
+}
+
+a {
+	float: right;
 }
