@@ -27,7 +27,7 @@ a {
 }
 
 a:hover {
-	color: yellow;
+	color: #1786EB;
 	transition: all 0.3s linear;
 }
 
