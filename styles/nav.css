@@ -1,0 +1,7 @@
+a {
+	display: flex;
+	background-color: #800080;
+	flex-flow: row-reverse;
+	flex-wrap: nowrap;
+	font-size: 2rem;
+}
