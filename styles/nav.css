@@ -80,66 +80,6 @@ nav li {
 	font-family: 'Walter Turncoat', cursive;
 }
 
-@-webkit-keyframes wobble {
-	16.65% {
-	  -webkit-transform: translateY(8px);
-	  transform: translateY(8px);
-	}
-	33.3% {
-	  -webkit-transform: translateY(-6px);
-	  transform: translateY(-6px);
-	}
-	49.95% {
-	  -webkit-transform: translateY(4px);
-	  transform: translateY(4px);
-	}
-	66.6% {
-	  -webkit-transform: translateY(-2px);
-	  transform: translateY(-2px);
-	}
-	83.25% {
-	  -webkit-transform: translateY(1px);
-	  transform: translateY(1px);
-	}
-	100% {
-	  -webkit-transform: translateY(0);
-	  transform: translateY(0);
-	}
-  }
-  
-  @keyframes wobble {
-	16.65% {
-	  -webkit-transform: translateY(8px);
-	  -ms-transform: translateY(8px);
-	  transform: translateY(8px);
-	}
-	33.3% {
-	  -webkit-transform: translateY(-6px);
-	  -ms-transform: translateY(-6px);
-	  transform: translateY(-6px);
-	}
-	49.95% {
-	  -webkit-transform: translateY(4px);
-	  -ms-transform: translateY(4px);
-	  transform: translateY(4px);
-	}
-	66.6% {
-	  -webkit-transform: translateY(-2px);
-	  -ms-transform: translateY(-2px);
-	  transform: translateY(-2px);
-	}
-	83.25% {
-	  -webkit-transform: translateY(1px);
-	  -ms-transform: translateY(1px);
-	  transform: translateY(1px);
-	}
-	100% {
-	  -webkit-transform: translateY(0);
-	  -ms-transform: translateY(0);
-	  transform: translateY(0);
-	}
-  }
-  
   a {
 	display: inline-block;
 	-webkit-transform: translateZ(0);
@@ -147,14 +87,27 @@ nav li {
 	transform: translateZ(0);
 	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   }
-  
   a:hover {
-	-webkit-animation-name: wobble;
-	animation-name: wobble;
-	-webkit-animation-duration: 1s;
-	animation-duration: 1s;
-	-webkit-animation-timing-function: ease-in-out;
-	animation-timing-function: ease-in-out;
-	-webkit-animation-iteration-count: 1;
-	animation-iteration-count: 1;
+	animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+	transform: translate3d(0, 0, 0);
+	backface-visibility: hidden;
+	perspective: 1000px;
+  }
+  
+  @keyframes shake {
+	10%, 90% {
+	  transform: translate3d(-1px, 0, 0);
+	}
+	
+	20%, 80% {
+	  transform: translate3d(2px, 0, 0);
+	}
+  
+	30%, 50%, 70% {
+	  transform: translate3d(-4px, 0, 0);
+	}
+  
+	40%, 60% {
+	  transform: translate3d(4px, 0, 0);
+	}
   }
