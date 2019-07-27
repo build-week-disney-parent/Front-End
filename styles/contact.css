@@ -1,29 +1,56 @@
 .contact-box-container{ 
-    /* The image used */
+    
     background-image: url("../images/epcot-sky.jpg");
-    /* background-color: red; */
-  
-    /* Set a specific height */
-    height: 500px; 
-  
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding:10px;
 }
 
-.contact-box{
-    margin-left:50%;
-    margin-right: 25%;
-}
-.form{
-    display: flex;
-    flex-direction: column;
-    padding-top: 50%;
-}
+
 p{
     font-family: 'Montserrat', sans-serif;
 }
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+ 
+  input[type=submit] {
+    background-color: #800080;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #800080;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  
+ 
+  .form-container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-left:500px;
+  }
+
+  .form-paragraph {
+      padding: 10px;
+  }
+
 
 
