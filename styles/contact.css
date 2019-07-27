@@ -1,11 +1,14 @@
 .contact-box-container{ 
     
     background-image: url("../images/epcot-sky.jpg");
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding:10px;
+    display: flex;
+    justify-content:flex-end;
+    width: 100%;
 }
 
 
@@ -45,12 +48,14 @@ input[type=text], select, textarea {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
-    margin-left:500px;
+    width: 40%;
+    
   }
 
   .form-paragraph {
       padding: 10px;
   }
 
-
-
+.textarea {
+    height: 100px;
+}
