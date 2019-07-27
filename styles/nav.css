@@ -51,7 +51,11 @@ header::after {
 	float: left;
 	color: #232B2D;
 	text-decoration: none;
+	margin-top: 10px;
 	margin-left: 10rem;
+	display: block;
+   	max-width: 400px;
+   	height: auto;
 }
 
 nav {
