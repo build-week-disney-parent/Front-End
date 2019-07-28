@@ -1,31 +1,3 @@
-
-/*header {
-	width: 100vw;
-}
-nav {
-	display: flex;
-	flex-direction: row;
-	background-color: #800080;
-	width: 100%;
-	justify-content: space-around;
-
-}
-a {
-	text-decoration: none;
-	color: white;
-	font-size: 2.6rem;
-	margin: 20px;
-}
-
-nav:hover {
-	align-self: flex-start;
-	font-size: 10rem;
-}
-
-.logo {
-	font-size: 4rem;
-}*/
-
 body {
 	margin: 0%;
 	background: rgb(243, 236, 236);
@@ -33,9 +5,11 @@ body {
 }
 
 .container {
-	width: 80%;
+	width: 100%;
 	margin: 0 auto;
 }
+
+
 
 header {
 	background: #6ce0d3;
@@ -58,6 +32,19 @@ header::after {
    	height: auto;
 }
 
+@media only screen and (max-width: 1220px) {
+	.logo {
+		float: left;
+		color: #232B2D;
+		text-decoration: none;
+		margin-left: 1rem;
+		display: block;
+		max-width: 25rem;
+		height: auto;
+	}
+}
+
+
 nav {
 	float: right;
 	color: #232B2D;
@@ -70,6 +57,16 @@ a {
 	font-family: 'Walter Turncoat', cursive;
 	font-size: 3.2rem;
 	margin-top: -1.1rem;
+}
+
+@media only screen and (max-width: 1200px) {
+	a {
+		color: #232B2D;
+		text-decoration: none;
+		font-family: 'Walter Turncoat', cursive;
+		font-size: 3.2rem;
+		margin-left: 3.1rem;
+	}
 }
 
 nav ul {
@@ -116,3 +113,4 @@ nav li {
 	  transform: translate3d(4px, 0, 0);
 	}
   }
+

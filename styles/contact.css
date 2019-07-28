@@ -9,11 +9,16 @@
     display: flex;
     justify-content:flex-end;
     width: 100%;
-}
+ } 
 
 
-p{
+form p{
     font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 13px;
+}
+form label{
+    font-size: 2rem;
 }
 
 /* Style inputs with type="text", select elements and textareas */
@@ -53,7 +58,7 @@ input[type=text], select, textarea {
   }
 
   .form-paragraph {
-      padding: 10px;
+      padding: 0px;
   }
 
 .textarea {
