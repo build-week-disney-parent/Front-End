@@ -1,64 +1,94 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
-<head>
-  <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
 
-  <title>Contact - Disney Parent</title>
-
+    <title>Contact - Disney Parent</title>
   <link href="https://fonts.googleapis.com/css?family=Fascinate&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles/contact.css">
+  <link rel="stylesheet" href="./styles/contact.css">
   <link rel="stylesheet" href="./styles/index.css">
   <link rel="stylesheet" href="./styles/nav.css">
-  <link rel="stylesheet" href="./styles/about.css">
+  
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
 </head>
 
+   <link
+      href="https://fonts.googleapis.com/css?family=Fascinate&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/contact.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/nav.css" />
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
   <body>
-      <header>
-        <img src="/images/disneyparentlogo.png" alt="Disney Parent logo" class="logo">
-          <nav class='hover-effect'>
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="contact.html">Contact</a></li>
-              <li><a href="#">Sign In</a></li>
-              <li><a href="#">Sign Up</a></li>
-            </ul>
-          </nav>
-      </header>
+    <header>
+      <img
+        src="/images/disneyparentlogo.png"
+        alt="Disney Parent logo"
+        class="logo"
+      />
+      <nav class="hover-effect">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li>
+            <a href="https://react-disney.netlify.com/">Sign In / Sign Up</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-  <div class="contact-box-container">
+    <div class="contact-box-container">
       <div class="form-container">
-          <form action="/action_page.php">
+        <form action="/action_page.php">
+          <p class="form-paragraph">
+            Hello Parent, <br /><br />Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Amet voluptas quam fugiat dolore deserunt ipsam?
+          </p>
 
-            <p class="form-paragraph">Hello Parent, <br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet voluptas quam fugiat dolore deserunt ipsam?</p>
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="..." />
 
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="...">
-        
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="...">
-        
-            <label for="language">Language</label>
-            <select id="language" name="language"style="
-            font-size: 2rem">
-              <option value="english">English</option>
-              <option value="spanish">Spanish</option>
-              <option value="french">French</option>
-              <option value="portuguese">Portuguese</option>
-            </select>
-        
-            <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="..." style="height:100px"></textarea>
-        
-            <input type="submit" value="Submit"style="
-            font-size: 2rem">
-          </form>
-        </div>
-  </div>
-    
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="..." />
+
+          <label for="language">Language</label>
+          <select
+            id="language"
+            name="language"
+            style="
+            font-size: 2rem"
+          >
+            <option value="english">English</option>
+            <option value="spanish">Spanish</option>
+            <option value="french">French</option>
+            <option value="portuguese">Portuguese</option>
+          </select>
+
+          <label for="subject">Subject</label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="..."
+            style="height:100px"
+          ></textarea>
+
+          <input
+            type="submit"
+            value="Submit"
+            style="
+            font-size: 2rem"
+          />
+        </form>
+      </div>
+    </div>
   </body>
 </html>
