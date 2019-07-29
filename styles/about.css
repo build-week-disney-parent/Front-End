@@ -1,6 +1,7 @@
 .profile-section{
     display: flex;
     flex-direction: row;
+    margin-bottom: 40px;
 }
 
 .profile-data{
