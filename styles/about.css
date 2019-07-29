@@ -27,3 +27,33 @@
     font-style: italic;
 }
 
+.top-content-section{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+
+.profile-section{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.paragraph1{
+    width: 60%;
+    padding: 10px;
+    font-size: 3rem;
+
+}
+
+.paragraph2{
+    width: 40%;
+    padding: 10px;
+}
+
+.paragraph2 b{
+    font-size: 2rem;
+}
