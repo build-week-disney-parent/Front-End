@@ -15,6 +15,7 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	width: 100%;
+	border-bottom: 2px solid white;
 }
 
 @media (max-width:800px) {
@@ -37,7 +38,7 @@ header::after {
 	margin-top: 8px;
 	margin-left: 10rem; 
 	display: block;
-	width: 25%;
+	width: 11%;
    	height: auto;
 }
 
@@ -49,7 +50,7 @@ header::after {
 
 @media (max-width: 500px) {
 	.logo {
-		width: 35%;
+		width: 25%;
 	}
 }
 
