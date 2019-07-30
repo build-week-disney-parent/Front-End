@@ -27,6 +27,18 @@ header {
 	}
 }
 
+@media (max-width:500px) {
+	header {
+		position: none;
+		top: 10px;
+		right: 20px;
+		cursor: pointer; 
+		color: rgba(255,255,255,0.8);
+		font-size: 24px;
+	}
+	
+}
+
 header::after {
 	content: '';
 	display: table;
@@ -40,7 +52,6 @@ header::after {
 	margin-left: 10rem; 
 	display: block;
 	width: 25%;
-   	/* max-width: 36rem; */
    	height: auto;
 }
 
@@ -68,11 +79,9 @@ nav {
 
   a {
 	color: #232B2D;
-	/* margin-left: 7rem; */
 	text-decoration: none;
 	font-family: 'Walter Turncoat', cursive;
 	font-size: 2.5rem;
-	/* margin-top: -1.1rem; */
 	display: inline-block;
 	-webkit-transform: translateZ(0);
 	-ms-transform: translateZ(0);
