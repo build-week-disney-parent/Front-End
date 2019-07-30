@@ -9,8 +9,6 @@ body {
 	margin: 0 auto;
 }
 
-
-
 header {
 	background: #6ce0d3;
 	display: flex;
@@ -25,18 +23,6 @@ header {
 		justify-content: center;
 		align-items: center;
 	}
-}
-
-@media (max-width:500px) {
-	header {
-		position: none;
-		top: 10px;
-		right: 20px;
-		cursor: pointer; 
-		color: rgba(255,255,255,0.8);
-		font-size: 24px;
-	}
-	
 }
 
 header::after {
@@ -75,7 +61,6 @@ nav {
 	color: #232B2D;
 	text-decoration: none;
 }
-
 
   a {
 	color: #232B2D;
