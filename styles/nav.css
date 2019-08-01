@@ -39,7 +39,8 @@ header::after {
 	margin-left: 10rem; 
 	display: block;
 	width: 11%;
-   	height: auto;
+	   height: auto;
+	   margin: 1rem 2rem .8rem 3rem;
 }
 
 @media (max-width: 800px) {

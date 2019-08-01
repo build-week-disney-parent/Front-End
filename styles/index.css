@@ -49,3 +49,20 @@ a:hover {
 	margin: -4px;
 }
 
+.quote{
+	z-index: 1;
+	top: 100px;
+	position: absolute;
+}
+
+.quote p{
+	background-color: transparent;
+	color: black;
+	font-size: 5rem;
+	font-weight: 800;
+	font-family: 'Walter Turncoat', cursive;
+	text-shadow: 1px 1px white;
+
+}
+
+
