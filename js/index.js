@@ -1,7 +1,7 @@
 window.onload = function() {
     var quote = document.querySelector('.sliding-text')
     quote.style.marginLeft = "25px";
-  };
+};
   
 
 //   window.onload = function() {
@@ -58,3 +58,7 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block"; 
   dots[slideIndex-1].className += " active";
 }
+
+// function myFunction() { 
+//   document.getElementById("myDialog").showModal(); 
+// } <!-- button function/not in use -->
