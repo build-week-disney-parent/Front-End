@@ -36,16 +36,17 @@ header::after {
 	color: #232B2D;
 	text-decoration: none;
 	margin-top: 8px;
-	margin-left: 10rem; 
+	margin-left: 11rem; 
 	display: block;
 	width: 11%;
-	   height: auto;
-	   margin: 1rem 2rem .8rem 3rem;
+	height: auto;
+	/* margin: 1rem 2rem .8rem 3rem; */
 }
 
 @media (max-width: 800px) {
 	.logo {
 		margin-left: 0;
+		width: 20%
 	}
 }
 
@@ -59,9 +60,34 @@ nav {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	width: 65%;
+	width: 95%;
 	color: #232B2D;
 	text-decoration: none;
+	margin-left: 30rem;
+}
+
+@media (max-width: 1200px) {
+	nav {
+		margin-left: 20rem;
+	}
+}
+
+@media (max-width: 1100px) {
+	nav {
+		margin-left: 10rem;
+	}
+}
+
+@media (max-width: 800px) {
+	nav {
+		margin-left: 0;
+	}
+}
+
+@media (max-width: 500px) {
+	nav {
+		margin-left: 0;
+	}
 }
 
   a {
@@ -76,6 +102,12 @@ nav {
 	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   }
 
+@media (max-width: 1100px) {
+	a {
+		font-size: 2rem;
+	}
+}
+
 @media (max-width: 800px) {
 	a {
 		font-size: 2rem;
@@ -84,7 +116,7 @@ nav {
 
 @media (max-width: 500px) {
 	a {
-		font-size: 1rem;
+		font-size: 1.5rem;
 	}
 }
 
