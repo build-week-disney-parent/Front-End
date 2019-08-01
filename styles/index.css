@@ -49,13 +49,13 @@ a:hover {
 	margin: -4px;
 }
 
-.quote{
+.appscreenshot{
 	z-index: 1;
 	top: 100px;
 	position: absolute;
 }
 
-.quote p{
+.appscreenshot p{
 	background-color: transparent;
 	color: black;
 	font-size: 5rem;

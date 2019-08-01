@@ -1,11 +1,46 @@
 window.onload = function() {
-    var quote = document.querySelector('.sliding-text')
-    quote.style.marginLeft = "25px";
+    var appscreenshot = document.querySelector('.sliding-ticket')
+    appscreenshot.style.marginLeft = "125px";
   };
+
+  
   
 
-//   window.onload = function() {
-//     var ball = document.getElementById('ball')
-//     ball.style.marginLeft = "25px";
-//   };
-  
+
+
+
+
+
+
+
+
+
+
+
+// Nick start here
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
