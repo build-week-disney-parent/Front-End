@@ -60,7 +60,14 @@
 .profile-section{
     margin-top: 20px;
     display: flex;
-    justify-content: center;
+    /* flex-direction: column;
+    justify-content: flex-end;
+    align-content: space-between;
+    align-items: baseline; */
+}
+
+.profile-second {
+    display: flex;
 }
 
 .paragraph1{
