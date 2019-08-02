@@ -35,8 +35,24 @@ a:hover {
 	transition: all 0.3s linear;
 }
 
-.hero-image{
+.hero-image {
 	width: 100%;
+}
+
+.hero-image2 {
+	width: 100%;
+}
+
+@media (max-width: 1100px) {
+	.hero-image2 {
+		height: 800px;
+	}
+}
+
+@media (max-width: 700px) {
+	.hero-image2 {
+		height: 700px;
+	}
 }
 
 .hero-section{
@@ -210,18 +226,35 @@ a:hover {
 	}
 }
 
+.container5 {
+	display: flex;
+	justify-content: center;
+}
 
 .instructions{
 	z-index: 1;
-	top: 1200px;
 	position: absolute;
 	padding: 100px;
+	font-weight: bold;
 }
 
 .instructions p{
 	background-color: transparent;
 	color: black;
 	text-align: center;
+	font-size: 4rem;
+}
+
+@media (max-width: 950px) {
+	.instructions p {
+		font-size: 3rem;
+	}
+}
+
+@media (max-width: 500px) {
+	.instructions p {
+		font-size: 2rem;
+	}
 }
 
 .inline-photo1 {
@@ -229,19 +262,24 @@ a:hover {
 	border-bottom: 4em solid #fff;
 	border-radius: .25em;
 	box-shadow: 1em 1em 2em .25em rgba(0,0,0,.2);
-	margin: 2em auto;
+	margin: 10em auto;
 	transform: rotateZ(-2deg);
 	max-width: 600px;
 	width: 90%;
+	display: flex;
+	justify-content: center;
   }
+
 .inline-photo2 {
 	border: 1em solid #fff;
 	border-bottom: 4em solid #fff;
 	border-radius: .25em;
 	box-shadow: 1em 1em 2em .25em rgba(0,0,0,.2);
-	margin: 2em auto;
+	margin: 10em auto;
 	transform: rotateZ(2deg);
 	max-width: 600px;
 	width: 90%;
+	display: flex;
+	justify-content: center;
   }
   
