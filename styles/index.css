@@ -49,9 +49,15 @@ a:hover {
 	}
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
 	.hero-image2 {
-		height: 700px;
+		height: 400px;
+	}
+}
+
+@media (max-width: 500px) {
+	.hero-image2 {
+		height: 300px;
 	}
 }
 
@@ -281,5 +287,11 @@ a:hover {
 	width: 90%;
 	display: flex;
 	justify-content: center;
+  }
+
+  @media (max-width: 800px) {
+	  .inline-photo2 {
+		  display: none;
+	  }
   }
   
