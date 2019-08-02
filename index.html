@@ -11,55 +11,45 @@
   <link rel="stylesheet" href="./styles/nav.css">
   <link rel="stylesheet" href="./styles/about.css">
   <script type="text/javascript" src="./js/index.js"></script>
-
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
 </head>
-
-  <body>
-    <header>
-      <img src="/images/disneyparentlogo.png" alt="Disney Parent logo" class="logo">
-        <nav class='hover-effect'>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
-            <a href="https://react-disney.netlify.com/">Sign In / Sign Up</a>
-        </nav>
-    </header>
-    <div class="container"> 
-    <div>     
-
+<body>
+  <header>
+    <img src="/images/disneyparentlogo.png" alt="Disney Parent logo" class="logo">
+    <nav class='hover-effect'>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="https://react-disney.netlify.com/">Sign In / Sign Up</a>
+    </nav>
+  </header>
+  <div class="container"> 
+    <div> <!-- Whats the purpose of this div? -->
       <div class="quote" id="quote">
         <p class="sliding-text">
-            "We believed in our idea - a family park where parents and children could have fun- together."  <br>- Walt Disney
+        "We believed in our idea - a family park where parents and children could have fun- together." <br>- Walt Disney
         </p> 
       </div>
-        
-
       <div>
         <img class="hero-image" src="/images/hero1-kids-on-shoulders.webp" alt="kids at magic kingdom">
-       </div>
-       <div class="slideshow-container">
+      </div>
+      <div class="slideshow-container">
         <div class="mySlides2">
-          <p class="slide">Hello! Welcome to DISNEY PARENT! Where we strive on application safety! Please click either arrow to see more about us!</p>
+          <p class="slide">Coordinate with other parents at any Walt Disney Theme Park to swap childcare and stroller passes with! <br><br>Click the arrow to see how it works!</p>
+        </div>        
+        <div class="mySlides"> <!-- This div appears fourth -->
+          <img class="cards" src="/images/card-need-help-up.png"> <p class="slide">Help is on the way!</p>
         </div>
-      
-        <div class="mySlides">
-          <p class="slide">Disney Parent is a fun app that allows parents to switch and/or care for a child while other parents can ride specific rides. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi quis quos at. Beatae enim vitae hic assumenda quis voluptatem, blanditiis accusantium ducimus fugit deserunt aspernatur suscipit ipsum ab quia dolores.</p>
+        <div class="mySlides"> <!-- This div appears first -->
+          <p class="slide">FIRST SLIDE Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum, praesentium? </p>
         </div>
-      
-        <div class="mySlides">
-          <p class="slide">Disney Parent is a fun app that allows parents to switch and/or care for a child while other parents can ride specific rides. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi quis quos at. Beatae enim vitae hic assumenda quis voluptatem, blanditiis accusantium ducimus fugit deserunt aspernatur suscipit ipsum ab quia dolores.</p>
+        <div class="mySlides"> <!-- This div appears second -->
+         <img class="cards" src="/images/card-need-help-up.png"> <p class="slide">Help is on the way!</p>
         </div>
-        <div class="mySlides">
-          <p class="slide">Disney Parent is a fun app that allows parents to switch and/or care for a child while other parents can ride specific rides.</p>
-        </div>
-        <div class="mySlides">
-          <p class="slide">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi quis quos at. Beatae enim vitae hic assumenda quis voluptatem, blanditiis accusantium ducimus fugit deserunt aspernatur suscipit ipsum ab quia dolores.</p>
-        </div>
-        <div class="mySlides">
-          <p class="slide">Disney Parent is a fun app that allows parents to switch and/or care for a child while other parents can ride specific rides. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi quis quos at. Beatae enim vitae hic assumenda quis voluptatem, blanditiis accusantium ducimus fugit deserunt aspernatur suscipit ipsum ab quia dolores.</p>
+        <div class="mySlides"> <!-- This div appears third -->
+          <p class="slide">THIRD SLIDE Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum, praesentium? </p>
         </div>
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -72,19 +62,17 @@
         <span class="dot" onclick="currentSlide(5)"></span>
         <span class="dot" onclick="currentSlide(6)"></span>  -->
       </div>
-    <div class="no-margin">
+      <div class="no-margin">
         <img class="hero-image" src="/images/hero2-cloud-background-canvas.jpg" alt="clouds">
-    </div>
-    <div class="no-margin">        
+      </div>
+      <div class="no-margin">        
         <img class="hero-image" src="/images/hero3-magic-kingdom-towers.jpg" alt="magic kingdom towers">
+      </div>
     </div>
-    <!-- <div class="hero-section">         
-
-    </div> -->
-    </div>
-    <!-- <div>  
-      <button onclick="myFunction()">Click here for disneyland coupon codes!</button>
-      <dialog id="myDialog">No coupon codes to display at this time! Thank you, sorry for any inconvenience this may have caused!</dialog>
-    </div> --> <!-- button that goes with button JS code -->
-  </body>
+  </div>
+<!-- <div>  
+<button onclick="myFunction()">Click here for disneyland coupon codes!</button>
+<dialog id="myDialog">No coupon codes to display at this time! Thank you, sorry for any inconvenience this may have caused!</dialog>
+</div> --> <!-- button that goes with button JS code -->
+</body>
 </html>
