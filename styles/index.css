@@ -143,30 +143,26 @@ a:hover {
 	color: white;
   }
 
-  .cards img{
+  .cards {
 	width: 100%;
   }
 
-  /* .cards p{
-	margin: 20px;
-  } */
-  
-  /* .dot-container {
+  .dot-container {
 	text-align: center;
 	padding: 20px;
-	background: #ddd;
-  } */
+	background: #6ce0d3;
+  }
 
-  /* .dot {
+  .dot {
 	cursor: pointer;
 	height: 15px;
 	width: 15px;
 	margin: 0 2px;
-	background-color: #bbb;
+	background-color: black;
 	border-radius: 50%;
 	display: inline-block;
 	transition: background-color 0.6s ease;
-  } */
+  }
   
   .active, .dot:hover {
 	background-color: #717171;
@@ -198,18 +194,18 @@ a:hover {
 
 @media (max-width: 1000px) {
 	.slide {
-		font-size: 3.0rem;
+		font-size: 3.5rem;
 	}
 }
 
 @media (max-width: 800px) {
 	.slide {
-		font-size: 2.0rem;
+		font-size: 3.5rem;
 	}
 }  
 
 @media (max-width: 500px) {
 	.slide {
-		font-size: 1.5rem;
+		font-size: 3.5rem;
 	}
 }
